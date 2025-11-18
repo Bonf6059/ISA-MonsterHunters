@@ -11,6 +11,7 @@
 			<displayName>[ISA] Medieval</displayName>
 			<downloadUrl>https://github.com/Bonf6059/ISA-Medieval</downloadUrl>
 		</li>
+	</modDependencies>
 	<loadAfter>
 		<li>ISA.Medieval</li>
 	</loadAfter>
