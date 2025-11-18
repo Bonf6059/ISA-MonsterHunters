@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[ISA] Monster Hunters</name>
+	<supportedVersions>
+			<li>1.6</li>
+	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/ISA_MedievalLogo</modIconPath>
+	<modDependencies>
+		<li>
+			<packageId>ISA.Medieval</packageId>
+			<displayName>[ISA] Medieval</displayName>
+			<downloadUrl>https://github.com/Bonf6059/ISA-Medieval</downloadUrl>
+		</li>
+	<loadAfter>
+		<li>ISA.Medieval</li>
+	</loadAfter>
+	<packageId>ISA.MonsterHunters</packageId>
+	<description>Just a bunch of patches and addons to various mods and some medieval stuff.</description>
+</ModMetaData>
