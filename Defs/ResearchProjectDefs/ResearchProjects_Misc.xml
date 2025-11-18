@@ -9,7 +9,7 @@
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
 		<researchViewX>10.0</researchViewX>
-		<researchViewY>11.0</researchViewY>
+		<researchViewY>1.0</researchViewY>
 		<prerequisites>
 			<li>ISA_DrugsMaking</li>
 		</prerequisites>
