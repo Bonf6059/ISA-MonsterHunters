@@ -156,27 +156,6 @@
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>
-		<modExtensions>
-			<li Class="MedievalOverhaul.AdditionalButcherProducts">
-                <butcherOptions>
-                    <li>
-                        <thingDef>ISA_LindwurmScales</thingDef>
-                        <amount>1~2</amount>
-                        <chance>1</chance>
-                    </li>
-					<li>
-                        <thingDef>ISA_LindwurmBones</thingDef>
-                        <amount>1~2</amount>
-                        <chance>1</chance>
-                    </li>
-					<li>
-                        <thingDef>ISA_LindwurmBlood</thingDef>
-                        <amount>1~2</amount>
-                        <chance>1</chance>
-                    </li>
-                </butcherOptions>
-            </li>
-		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
