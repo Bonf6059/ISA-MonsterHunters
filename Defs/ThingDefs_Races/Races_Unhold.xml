@@ -29,12 +29,11 @@
 			<baseHealthScale>7</baseHealthScale>
 			<maxPreyBodySize>3.5</maxPreyBodySize>
 			<foodType>CarnivoreAnimalStrict, Corpse</foodType>
-      <leatherDef>ISA_UnholdHide</leatherDef>
-	  <meatLabel>unhold meat</meatLabel>
-      <butcherBodyPart>
-          <bodyPartGroup>Heart</bodyPartGroup>
-          <thing>ISA_UnholdHeart</thing>
-      </butcherBodyPart>
+		    <leatherDef>ISA_UnholdHide</leatherDef>
+      		<butcherBodyPart>
+        		<bodyPartGroup>Heart</bodyPartGroup>
+				<thing>ISA_UnholdHeart</thing>
+      		</butcherBodyPart>
 			<lifeExpectancy>200</lifeExpectancy>
 			<hediffGiverSets Inherit="False">
 				<li>ISA_MonsterHediffGiver</li>
