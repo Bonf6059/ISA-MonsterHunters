@@ -2,7 +2,7 @@
 <Defs>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>DankPyon_AlpSleep</defName>
+		<defName>ISA_AlpSleep</defName>
 		<label>sleep</label>
 		<graphicData>
 			<texPath>Things/Projectile/Projectile_AlpBolt</texPath>
@@ -11,7 +11,7 @@
 		</graphicData>
 		<projectile>
 			<flyOverhead>false</flyOverhead>
-			<damageDef>DankPyon_AlpSleep</damageDef>
+			<damageDef>ISA_AlpSleep</damageDef>
 			<armorPenetrationBase>2.0</armorPenetrationBase>
 			<speed>30</speed>
 		</projectile>
