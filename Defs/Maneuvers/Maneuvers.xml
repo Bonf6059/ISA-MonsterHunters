@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
+	<!-- Da verificare se si può eliminare swallow ed usare quello di anomaly -->
+	
 	<ManeuverDef>
 		<defName>ISA_Swallow</defName>
 		<requiredCapacity>ISA_Swallow</requiredCapacity>
