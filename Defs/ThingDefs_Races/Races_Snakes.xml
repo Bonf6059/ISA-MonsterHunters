@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--==================== Lindwurm ====================-->
+	<ThingDef ParentName="AnimalThingBase" Name="ISA_LindwurmBase">
+		<defName>ISA_LindwurmForest</defName>
+		<label>forest lindwurm</label>
+		<description>An enormous reptile, halfway between serpents and dragons. One of the few creatures truly incapable of feeling fear. Any daredevil who manages to get past the mighty yet nimble tail and pierce a hardy scale will be splashed with corrosive blood. Lindwurm blood is the most powerful acid known yet — dissolving even the thickest steel, eating through the flesh in seconds.</description>
+		<statBases>
+			<MoveSpeed>5.8</MoveSpeed>
+			<MarketValue>7000</MarketValue>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<FilthRate>8</FilthRate>
+			<ArmorRating_Sharp>0.67</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.44</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.62</ArmorRating_Heat>
+			<Wildness>0.999</Wildness>
+		</statBases>
+		<uiIconScale>1.6</uiIconScale>
+		<tools>
+			<li>
+				<label>venom-fangs</label>
+				<capacities>
+					<li>ISA_LindwurmAcid</li>
+				</capacities>
+				<power>32</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<surpriseAttack>
+				  <extraMeleeDamages>
+					<li>
+					  <def>Stun</def>
+					  <amount>14</amount>
+					</li>
+				  </extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>22</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>23</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>23</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>23</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>tail</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>ISA_TailAttackTool</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>28</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>ISA_EggLindwurmForestFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>ISA_Lindwurm_EggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>60</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~2</eggCountRange>
+			</li>
+		</comps>
+		<race>
+			<body>ISA_LindwurmBody</body>
+			<predator>true</predator>
+			<maxPreyBodySize>4</maxPreyBodySize>
+			<baseBodySize>4</baseBodySize>
+			<baseHungerRate>1.05</baseHungerRate>
+			<baseHealthScale>12.0</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>ISA_Leather_Lindwurm</leatherDef>
+			<meatLabel>lindwurm meat</meatLabel>
+			<petness>0.005</petness>
+			<manhunterOnTameFailChance>0.80</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+			<nameOnTameChance>1</nameOnTameChance>
+			<lifeExpectancy>2400</lifeExpectancy>
+			<hediffGiverSets Inherit="False">
+				<li>ISA_MonsterHediffGiver</li>
+			</hediffGiverSets>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.75</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>1.332</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="MedievalOverhaul.AdditionalButcherProducts">
+                <butcherOptions>
+                    <li>
+                        <thingDef>ISA_LindwurmScales</thingDef>
+                        <amount>1~2</amount>
+                        <chance>1</chance>
+                    </li>
+					<li>
+                        <thingDef>ISA_LindwurmBones</thingDef>
+                        <amount>1~2</amount>
+                        <chance>1</chance>
+                    </li>
+					<li>
+                        <thingDef>ISA_LindwurmBlood</thingDef>
+                        <amount>1~2</amount>
+                        <chance>1</chance>
+                    </li>
+                </butcherOptions>
+            </li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ISA_LindwurmForest</defName>
+		<label>lindwurm</label>
+		<race>ISA_LindwurmForest</race>
+		<combatPower>700</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>lindwurm hatchling</label>
+				<labelPlural>lindwurm hatchlings</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/LindwurmForest</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated_Lindwurm</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/LindwurmForest</texPath>
+					<drawSize>4.0</drawSize>
+					<shadowData>
+						<volume>(0.7, 0.6, 0.4)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated_Lindwurm</texPath>
+					<drawSize>4.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/LindwurmForest</texPath>
+					<drawSize>4.8</drawSize>
+					<shadowData>
+						<volume>(1, 0.8, 0.5)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated_Lindwurm</texPath>
+					<drawSize>4.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="ISA_LindwurmBase">
+		<defName>ISA_LindwurmCave</defName>
+		<label>cave lindwurm</label>
+		<comps Inherit="False">
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>ISA_EggLindwurmCaveFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>ISA_Lindwurm_EggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>60</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~2</eggCountRange>
+			</li>
+
+			<li>
+				<compClass>CompAttachBase</compClass>
+			</li>
+		</comps>
+		<race>
+			<baseHealthScale>12.5</baseHealthScale>
+			<useMeatFrom>ISA_LindwurmForest</useMeatFrom>
+		</race>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ISA_LindwurmCave</defName>
+		<label>lindwurm</label>
+		<race>ISA_LindwurmCave</race>
+		<defaultFactionType>ISA_SnakeCave_Faction</defaultFactionType>
+		<combatPower>700</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>lindwurm hatchling</label>
+				<labelPlural>lindwurm hatchlings</labelPlural>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/LindwurmCave</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated_Lindwurm</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/LindwurmCave</texPath>
+					<drawSize>4.0</drawSize>
+					<shadowData>
+						<volume>(0.7, 0.6, 0.4)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated_Lindwurm</texPath>
+					<drawSize>4.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/LindwurmCave</texPath>
+					<drawSize>4.9</drawSize>
+					<shadowData>
+						<volume>(1, 0.8, 0.5)</volume>
+						<offset>(0,0,-0.5)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated_Lindwurm</texPath>
+					<drawSize>4.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>
