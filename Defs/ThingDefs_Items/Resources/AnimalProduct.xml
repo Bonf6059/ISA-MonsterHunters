@@ -7,7 +7,7 @@
 		<label>giant lindwurm egg (unfert.)</label>
 		<description>An unfertilized lindwurm egg. It can be eaten raw, but it's much, much better cooked.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/AnimalProductRaw/GiantEgg</texPath>
+			<texPath>Items/Resources/AnimalProducts/GiantEgg</texPath>
 			<color>(245,245,245)</color>
 		</graphicData>
 		<statBases>
@@ -20,7 +20,7 @@
 		<label>giant forest lindwurm egg (fert.)</label>
 		<description>A large fertilized forest lindwurm egg. If all goes well, it should hatch into a baby lindwurm. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/AnimalProductRaw/GiantEgg</texPath>
+			<texPath>Items/Resources/AnimalProducts/GiantEgg</texPath>
 			<color>(245,245,245)</color>
 		</graphicData>
 		<statBases>
@@ -39,7 +39,7 @@
 		<label>giant cave lindwurm egg (fert.)</label>
 		<description>A large fertilized forest lindwurm egg. If all goes well, it should hatch into a baby lindwurm. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/AnimalProductRaw/GiantCaveEgg</texPath>
+			<texPath>Items/Resources/AnimalProducts/GiantCaveEgg</texPath>
 			<color>(245,245,245)</color>
 		</graphicData>
 		<statBases>
