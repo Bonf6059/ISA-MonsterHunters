@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- ========================== Warg ================================= -->
+	<!-- ========================== Direwolf ================================= -->
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ISA_Direwolf</defName>
 		<label>Direwolf</label>
@@ -87,6 +87,10 @@
 			<baseHealthScale>1.4</baseHealthScale>
 			<foodType>CarnivoreAnimalStrict</foodType>
 			<leatherDef>ISA_Leather_Direwolf</leatherDef>
+			<butcherBodyPart>
+        		<bodyPartGroup>Liver</bodyPartGroup>
+				<thing>ISA_AdrenalineGland</thing>
+      		</butcherBodyPart>
 			<gestationPeriodDays>26</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
@@ -125,17 +129,6 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
-		<modExtensions>
-			<li Class="MedievalOverhaul.AdditionalButcherProducts">
-                <butcherOptions>
-                    <li>
-                        <thingDef>ISA_AdrenalineGland</thingDef>
-                        <amount>1</amount>
-                        <chance>0.5</chance>
-                    </li>
-                </butcherOptions>
-            </li>
-		</modExtensions>
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
