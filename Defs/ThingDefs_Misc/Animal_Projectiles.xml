@@ -5,7 +5,7 @@
 		<defName>ISA_AlpSleep</defName>
 		<label>sleep</label>
 		<graphicData>
-			<texPath>Things/Projectile/Projectile_AlpBolt</texPath>
+			<texPath>Pawn/Alp/Projectile_AlpBolt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>2</drawSize>
 		</graphicData>
