@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Lindwurm -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>ISA_Lindwurm_EggUnfertilized</defName>
+		<label>giant lindwurm egg (unfert.)</label>
+		<description>An unfertilized lindwurm egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/GiantEgg</texPath>
+			<color>(245,245,245)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>7.0</MarketValue>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="EggFertBase">
+		<defName>ISA_EggLindwurmForestFertilized</defName>
+		<label>giant forest lindwurm egg (fert.)</label>
+		<description>A large fertilized forest lindwurm egg. If all goes well, it should hatch into a baby lindwurm. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/GiantEgg</texPath>
+			<color>(245,245,245)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1500.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>40.5</hatcherDaystoHatch>
+				<hatcherPawn>ISA_LindwurmForest</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+<!--	<ThingDef ParentName="EggFertBase">
+		<defName>ISA_EggLindwurmCaveFertilized</defName>
+		<label>giant cave lindwurm egg (fert.)</label>
+		<description>A large fertilized forest lindwurm egg. If all goes well, it should hatch into a baby lindwurm. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/GiantCaveEgg</texPath>
+			<color>(245,245,245)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1500.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>40.5</hatcherDaystoHatch>
+				<hatcherPawn>ISA_LindwurmCave</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>  -->
+	
+	<!-- Griffon -->
+	
+<!--  <ThingDef ParentName="EggUnfertBase">
+		<defName>ISA_Griffon_EggUnfertilized</defName>
+		<label>griffon egg (unfert.)</label>
+		<description>An unfertilized griffon egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<color>(245,245,245)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>7.0</MarketValue>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>ISA_Griffon_EggFertilized</defName>
+		<label>griffon egg (fert.)</label>
+		<description>A fertilized griffon egg. If all goes well, it should hatch into a baby griffon. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<color>(245,245,245)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>500.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>15</hatcherDaystoHatch>
+				<hatcherPawn>ISA_Griffon</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>  -->
+
+</Defs>
