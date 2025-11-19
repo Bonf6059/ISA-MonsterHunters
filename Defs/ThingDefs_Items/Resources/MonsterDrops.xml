@@ -15,24 +15,28 @@
 		</tradeTags>
 	</ThingDef>
 
-	<!--=============== Unhold Drops ====================-->
+	<!-- Giant generic bones -->
+	
 	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
-		<defName>ISA_UnholdBones</defName>
+		<defName>ISA_GiantBones</defName>
 		<label>giant bones</label>
-		<description>Enormous remnants of unsavory unholds, exuding an aura of primal power and intrigue, sought after for their immense size and physical resiliance.</description>
+		<description>Enormous remnants of some kind of creature, valued for their durability and often used in crafting sturdy weapons and specialized tools..</description>
 		<graphicData>
 			<texPath>Special/UnholdBones</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 
 		<statBases>
-			<MarketValue>280</MarketValue>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Mass>5</Mass>
-			<Flammability>0.4</Flammability>
+			<MarketValue>415</MarketValue>
+			<MaxHitPoints>185</MaxHitPoints>
+			<Mass>7</Mass>
+			<Flammability>0</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
+		
 	</ThingDef>
+	
+	<!--=============== Unhold Drops ====================-->
 
 	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_ThickUnholdFur</defName>
@@ -102,24 +106,6 @@
 			<MarketValue>500</MarketValue>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>3</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
-		<defName>ISA_LindwurmBones</defName>
-		<label>lindwurm bones</label>
-		<description>Strong and lightweight bones from a Lindwurm, valued for their durability and often used in crafting sturdy weapons and specialized tools.</description>
-		<graphicData>
-			<texPath>Special/LindwurmBones</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-
-		<statBases>
-			<MarketValue>550</MarketValue>
-			<MaxHitPoints>220</MaxHitPoints>
-			<Mass>10</Mass>
 			<Flammability>0</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
