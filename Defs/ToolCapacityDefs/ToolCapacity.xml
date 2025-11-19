@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ToolCapacityDef>
+		<defName>ISA_Swallow</defName>
+		<label>swallow whole</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>ISA_LindwurmAcid</defName>
+		<label>toxic bite</label>
+	</ToolCapacityDef>
+
+</Defs>
