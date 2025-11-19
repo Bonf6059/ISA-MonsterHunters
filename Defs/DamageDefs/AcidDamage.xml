@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+	<DamageDef ParentName="Bite">
+		<defName>ISA_LindwurmAcid</defName>
+		<label>lindwurm bite</label>
+		<additionalHediffs>
+			<li>
+				<hediff>ISA_LindwurmAcid</hediff>
+			</li>
+		</additionalHediffs>
+		<applyAdditionalHediffsIfHuntingForFood>true</applyAdditionalHediffsIfHuntingForFood>
+		<impactSoundType>Toxic</impactSoundType>
+		<damageEffecter>Impact_Toxic</damageEffecter>
+	</DamageDef>
 	
 	<DamageDef ParentName="Flame">
 		<defName>ISA_LindwurmAcidBurn</defName>
