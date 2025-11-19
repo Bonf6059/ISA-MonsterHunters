@@ -130,7 +130,7 @@
 			<!-- <Leather>5</Leather> -->
 		</costList>
 		<graphicData>
-			<texPath>Items/Weapons/Grenades/FirePot/FirePots</texPath>
+			<texPath>Items/Weapons/Grenades/FirePot/FirePotBelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tickerType>Normal</tickerType>
