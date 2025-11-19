@@ -30,6 +30,7 @@
 			<maxPreyBodySize>3.5</maxPreyBodySize>
 			<foodType>CarnivoreAnimalStrict, Corpse</foodType>
       <leatherDef>ISA_UnholdHide</leatherDef>
+	  <meatLabel>unhold meat</meatLabel>
       <butcherBodyPart>
           <bodyPartGroup>Heart</bodyPartGroup>
           <thing>ISA_UnholdHeart</thing>
