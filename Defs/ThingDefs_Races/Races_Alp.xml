@@ -124,7 +124,11 @@
 			<baseHungerRate>2</baseHungerRate>
 			<baseHealthScale>1.5</baseHealthScale>
 			<foodType>CarnivoreAnimalStrict, Corpse</foodType>
-			<leatherDef>Leather_Human</leatherDef>
+			<leatherDef>ISA_ParchedSkin</leatherDef>
+			<butcherBodyPart>
+        		<bodyPartGroup>Eye</bodyPartGroup>	<!-- Vedere se sostituire con lingua e ISA_PetrifiedScream -->
+				<thing>ISA_ThirdEye</thing>
+      		</butcherBodyPart>
 			<manhunterOnTameFailChance>1</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<gestationPeriodDays>26</gestationPeriodDays>
@@ -145,27 +149,6 @@
 			<needsRest>false</needsRest>
 			<alwaysViolent>true</alwaysViolent>
 		</race>
-		<modExtensions>
-			<li Class="MedievalOverhaul.AdditionalButcherProducts">
-				<butcherOptions>
-					<li>
-						<thingDef>ISA_ParchedSkin</thingDef>
-						<amount>1</amount>
-						<chance>0.5</chance>
-					</li>
-					<li>
-						<thingDef>ISA_PetrifiedScream</thingDef>
-						<amount>1</amount>
-						<chance>0.5</chance>
-					</li>
-					<li>
-						<thingDef>ISA_ThirdEye</thingDef>
-						<amount>1</amount>
-						<chance>0.5</chance>
-					</li>
-				</butcherOptions>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
