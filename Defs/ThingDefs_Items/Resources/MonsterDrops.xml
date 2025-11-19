@@ -14,67 +14,8 @@
 			<li>ISA_AlchemyIngredients</li>
 		</tradeTags>
 	</ThingDef>
-
-<!-- Disabled because I can't find a way to make monsters drop them, texture is still in the files -->
-	
-	<!-- Giant generic bones -->	
-	
-<!--	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
-		<defName>ISA_GiantBones</defName>
-		<label>giant bones</label>
-		<description>Enormous remnants of some kind of creature, valued for their durability and often used in crafting sturdy weapons and specialized tools..</description>
-		<graphicData>
-			<texPath>Special/UnholdBones</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-
-		<statBases>
-			<MarketValue>415</MarketValue>
-			<MaxHitPoints>185</MaxHitPoints>
-			<Mass>7</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
-		</statBases>
-		
-	</ThingDef>	-->
 	
 	<!--=============== Unhold Drops ====================-->
-
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
-		<defName>ISA_ThickUnholdFur</defName>
-		<label>thick unhold fur</label>
-		<description>Warm furs of the formidable unhold, renowned for their thickness and weatherproof nature, sought after for crafting resilient garments and protective gear.</description>
-		<graphicData>
-			<texPath>Special/ThickUnholdFur</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-
-		<statBases>
-			<MarketValue>375</MarketValue>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Mass>15</Mass>
-			<Flammability>0.8</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
-		<defName>ISA_UnholdHide</defName>
-		<label>unhold hide</label>
-		<description>Robust hides of the formidable unhold, renowned for their thickness and weatherproof nature, sought after for crafting resilient garments and protective gear.</description>
-		<graphicData>
-			<texPath>Special/UnholdHide</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-
-		<statBases>
-			<MarketValue>250</MarketValue>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>10</Mass>
-			<Flammability>0.4</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
 
 	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_UnholdHeart</defName>
@@ -113,42 +54,7 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
-		<defName>ISA_LindwurmScales</defName>
-		<label>lindwurm broad scales</label>
-		<description>Tough, durable scales shed from a Lindwurm, prized for their exceptional strength and resilience. Ideal for crafting high-quality armor and protective gear.</description>
-		<graphicData>
-			<texPath>Special/LindwurmScales</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-
-		<statBases>
-			<MarketValue>750</MarketValue>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Mass>15</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
-
 	<!--=============== Alp ====================-->
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
-		<defName>ISA_ParchedSkin</defName>
-		<label>parched skin</label>
-		<description>Soft yet durable hide from an Alp, often used to craft lightweight armor or clothing with subtle protective qualities.</description>
-		<graphicData>
-			<texPath>Special/ParchedSkin</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-
-		<statBases>
-			<MarketValue>150</MarketValue>
-			<MaxHitPoints>40</MaxHitPoints>
-			<Mass>1</Mass>
-			<Flammability>2</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
 
 	<!-- Disabled because I can't find a way to make monsters drop them, texture is still in the files -->
 
