@@ -85,7 +85,7 @@
       </stages>
   </HediffDef>
 
-<!-- Acid -->
+<!-- Lyndwurm Acid -->
 
   <HediffDef ParentName="DiseaseBase">
 		<defName>ISA_LindwurmAcid</defName>
@@ -185,6 +185,8 @@
         </li>
       </stages>
   </HediffDef>
+
+<!-- Alp nightmare -->
 	
 	<HediffDef ParentName="InjuryBase">
 		<defName>ISA_NightmareDamage</defName>
