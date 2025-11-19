@@ -47,7 +47,7 @@
 				<explosiveRadius>1.66</explosiveRadius>
 				<explosiveDamageType>ISA_LindwurmAcidBurn</explosiveDamageType>
 				<requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
-				<preExplosionSpawnThingDef>ISA_Filth_AcidBlood</preExplosionSpawnThingDef>
+				<preExplosionSpawnThingDef>Filth_FlammableBile</preExplosionSpawnThingDef>
 			</li>
 		</comps>
 	</ThingDef>
