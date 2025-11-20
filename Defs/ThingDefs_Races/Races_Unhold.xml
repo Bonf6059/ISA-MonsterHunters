@@ -30,9 +30,6 @@
 			<maxPreyBodySize>3.5</maxPreyBodySize>
 			<foodType>CarnivoreAnimalStrict, Corpse</foodType>
 		    <leatherDef>ISA_UnholdHide</leatherDef>
-			<butcherProducts>
-				<ISA_UnholdHeart>1</ISA_UnholdHeart>
-			</butcherProducts>
 			<lifeExpectancy>200</lifeExpectancy>
 			<hediffGiverSets Inherit="False">
 				<li>ISA_MonsterHediffGiver</li>
@@ -80,6 +77,9 @@
 				<li>(-0.3, 0, 0.03)</li>
 			</headPosPerRotation>
 		</race>
+		<butcherProducts>
+			<ISA_UnholdHeart>1</ISA_UnholdHeart>
+		</butcherProducts>
 		<tradeTags>
 			<li>AnimalFighter</li>
 		</tradeTags>
