@@ -8,7 +8,7 @@
 		<stackLimit>10</stackLimit>
 
 		<thingCategories>
-			<li>ISA_AlchemyIngredients</li>
+			<li>ResourcesRaw</li>
 		</thingCategories>
 		<tradeTags>
 			<li>ISA_AlchemyIngredients</li>
