@@ -8,7 +8,7 @@
 		<baseCost>1200</baseCost>
 		<tab>ISA_MedievalResearchTab</tab>
 		<techLevel>Medieval</techLevel>
-		<researchViewX>10.0</researchViewX>
+		<researchViewX>1.0</researchViewX>
 		<researchViewY>1.0</researchViewY>
 		<prerequisites>
 			<li>ISA_DrugsMaking</li>
