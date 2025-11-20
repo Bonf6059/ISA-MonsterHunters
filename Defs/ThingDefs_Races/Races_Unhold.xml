@@ -29,7 +29,7 @@
 			<baseHealthScale>7</baseHealthScale>
 			<maxPreyBodySize>3.5</maxPreyBodySize>
 			<foodType>CarnivoreAnimalStrict, Corpse</foodType>
-		    <leatherDef>ISA_UnholdHide</leatherDef>
+		    <leatherDef>ISA_Leather_Unhold</leatherDef>
 			<lifeExpectancy>200</lifeExpectancy>
 			<hediffGiverSets Inherit="False">
 				<li>ISA_MonsterHediffGiver</li>
@@ -216,7 +216,7 @@
 		</statBases>
 		<race>
 			<useMeatFrom>ISA_Unhold</useMeatFrom>
-      <leatherDef>ISA_ThickUnholdFur</leatherDef>
+      <leatherDef>ISA_Leather_UnholdSnow</leatherDef>
 		</race>
 	</ThingDef>
 
