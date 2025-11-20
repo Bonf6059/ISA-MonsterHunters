@@ -119,10 +119,6 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>ISA_LindwurmScales</leatherDef>
 			<meatLabel>lindwurm meat</meatLabel>
-	        <butcherBodyPart>
-      	    	<bodyPartGroup>Heart</bodyPartGroup>
-        		<thing>ISA_LindwurmBlood</thing>
-      		</butcherBodyPart>
 			<petness>0.005</petness>
 			<manhunterOnTameFailChance>0.80</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1.00</manhunterOnDamageChance>
@@ -153,6 +149,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
+		<butcherProducts>
+			<ISA_LindwurmBlood>10</ISA_LindwurmBlood>
+		</butcherProducts>
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>
