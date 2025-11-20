@@ -29,9 +29,10 @@
 		<xpath>Defs/BiomeDef [defName="ColdBog"]/wildAnimals</xpath>
 		<value>
 			<ISA_Direwolf>0.04</ISA_Direwolf>
-			<ISA_Rox>0.4</DankPyon_Rox>
+			<ISA_Rox>0.4</ISA_Rox>
         </value>
 	</Operation>
+
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="IceSheet"]/wildAnimals</xpath>
@@ -47,7 +48,7 @@
 			<DankPyon_Direwolf>0.04</DankPyon_Direwolf>
 			<DankPyon_Rox>0.1</DankPyon_Rox>
         </value>
-	</Operation>
+	</Operation>	
 
 
 </Patch>
