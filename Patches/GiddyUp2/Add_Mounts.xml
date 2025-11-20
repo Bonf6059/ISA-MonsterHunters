@@ -4,12 +4,12 @@
 	<!-- Farm Animals -->
 <!--	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[
-					defName = "DankPyon_Hampshire" or
-					defName = "DankPyon_Gloucestershire" or
-					defName = "DankPyon_NorthernBoar" or
-					defName = "DankPyon_Ravelder" or
-					defName = "DankPyon_Angus" or
-					defName="DankPyon_Hyena"
+					defName = "ISA_Hampshire" or
+					defName = "ISA_Gloucestershire" or
+					defName = "ISA_NorthernBoar" or
+					defName = "ISA_Ravelder" or
+					defName = "ISA_Angus" or
+					defName="ISA_Hyena"
 					]		</xpath>
 		<value>
 			<li Class="GiddyUp.NotMountable"/>
@@ -19,7 +19,7 @@
 	<!-- Rox -->
   
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/ThingDef[defName="DankPyon_Rox"]</xpath>
+		<xpath>Defs/ThingDef[defName="ISA_Rox"]</xpath>
 		<value>
 			<li Class="GiddyUp.DrawingOffset">
 				<!--Offsets can be configured for each view (north, south, west, east) separately using comma separated floating point values-->
@@ -32,9 +32,9 @@
 	</Operation>
 
 	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/ThingDef[defName="DankPyon_Rox"]/comps</xpath>
+		<xpath>Defs/ThingDef[defName="ISA_Rox"]/comps</xpath>
 		<match Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="DankPyon_Rox"]/comps</xpath>
+			<xpath>Defs/ThingDef[defName="ISA_Rox"]/comps</xpath>
 			<value>
 				<li Class="GiddyUp.CompProperties_Overlay">
 					<overlayFront>
@@ -49,7 +49,7 @@
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="DankPyon_Rox"]</xpath>
+			<xpath>Defs/ThingDef[defName="ISA_Rox"]</xpath>
 			<value>
 				<comps>
 					<li Class="GiddyUp.CompProperties_Overlay">
@@ -74,7 +74,7 @@
 			<li>XML Extensions</li>
 		</mods>
 		<nomatch Class="PatchOperationAddModExtension">
-			<xpath>Defs/ThingDef[defName = "DankPyon_LindwurmForest" or defName="DankPyon_LindwurmCave"]</xpath>
+			<xpath>Defs/ThingDef[defName = "ISA_LindwurmForest" or defName="ISA_LindwurmCave"]</xpath>
 			<value>
 				<li Class="GiddyUp.NotMountable"/>
 			</value>
