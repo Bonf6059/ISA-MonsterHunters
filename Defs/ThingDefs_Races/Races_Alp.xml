@@ -149,6 +149,11 @@
 			<needsRest>false</needsRest>
 			<alwaysViolent>true</alwaysViolent>
 		</race>
+		<!-- da usare come piano B nel caso butcher body part non va --> 
+<!--		<butcherProducts>
+			<ISA_ThirdEye>1</ISA_ThirdEye>
+			<ISA_PetrifiedScream>1</ISA_PetrifiedScream>
+		</butcherProducts>	-->
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
