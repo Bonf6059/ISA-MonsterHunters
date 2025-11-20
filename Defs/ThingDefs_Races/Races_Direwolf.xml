@@ -87,10 +87,6 @@
 			<baseHealthScale>1.4</baseHealthScale>
 			<foodType>CarnivoreAnimalStrict</foodType>
 			<leatherDef>ISA_Leather_Direwolf</leatherDef>
-			<butcherBodyPart>
-        		<bodyPartGroup>Liver</bodyPartGroup>
-				<thing>ISA_AdrenalineGland</thing>
-      		</butcherBodyPart>
 			<gestationPeriodDays>26</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
@@ -129,10 +125,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
-		<!-- da usare come piano B nel caso butcher body part non va --> 
-<!--		<butcherProducts>
+		<butcherProducts>
 			<ISA_AdrenalineGland>1</ISA_AdrenalineGland>
-		</butcherProducts>	-->
+		</butcherProducts>
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
