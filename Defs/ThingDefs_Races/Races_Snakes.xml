@@ -117,7 +117,7 @@
 			<baseHungerRate>1.05</baseHungerRate>
 			<baseHealthScale>12.0</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-			<leatherDef>ISA_LindwurmScales</leatherDef>
+			<leatherDef>ISA_Leather_Lindwurm</leatherDef>
 			<meatLabel>lindwurm meat</meatLabel>
 			<petness>0.005</petness>
 			<manhunterOnTameFailChance>0.80</manhunterOnTameFailChance>
