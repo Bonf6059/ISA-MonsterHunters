@@ -5,7 +5,7 @@
 	<!--============================== Alchemy Ingredients ===================================-->
 	<ThingDef ParentName="ResourceBase" Name="ISA_AlchemyIngredientsBase" Abstract="True">
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
-		<stackLimit>50</stackLimit>
+		<stackLimit>150</stackLimit>
 
 		<thingCategories>
 			<li>ResourcesRaw</li>
