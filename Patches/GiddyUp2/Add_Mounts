@@ -2,7 +2,7 @@
 <Patch>
 
 	<!-- Farm Animals -->
-<!--	<Operation Class="PatchOperationAddModExtension">
+<!--	<Operation MayRequire="Owlchemist.GiddyUp" Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[
 					defName = "ISA_Hampshire" or
 					defName = "ISA_Gloucestershire" or
@@ -18,7 +18,7 @@
 
 	<!-- Rox -->
   
-	<Operation Class="PatchOperationAddModExtension">
+	<Operation MayRequire="Owlchemist.GiddyUp" Class="PatchOperationAddModExtension">
 		<xpath>Defs/ThingDef[defName="ISA_Rox"]</xpath>
 		<value>
 			<li Class="GiddyUp.DrawingOffset">
@@ -31,7 +31,7 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationConditional">
+	<Operation MayRequire="Owlchemist.GiddyUp" Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="ISA_Rox"]/comps</xpath>
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/ThingDef[defName="ISA_Rox"]/comps</xpath>
@@ -69,7 +69,7 @@
 
 	<!-- Lindwurm -->
   
-	<Operation Class="PatchOperationFindMod">
+	<Operation MayRequire="Owlchemist.GiddyUp" Class="PatchOperationFindMod">
 		<mods>
 			<li>XML Extensions</li>
 		</mods>
