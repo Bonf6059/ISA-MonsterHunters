@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-<!-- Mettere come ParentName LeatherBase e aggiungere tutte le stat mancanti in tutti tranne direwolf --> 
 	
 	<!-- Direworlf Leather -->
 
@@ -28,6 +26,8 @@
 		</stuffProps>
 	</ThingDef>
 
+	<!-- Rox Leather -->
+	
 	<ThingDef ParentName="LeatherBase">
 		<defName>ISA_Leather_Rox</defName>
 		<label>Rox Leather</label>
@@ -56,80 +56,68 @@
 
 	<!-- Unhold Leather -->
 	
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
-		<defName>ISA_ThickUnholdFur</defName>
-		<label>thick unhold fur</label>
-		<description>Warm furs of the formidable unhold, renowned for their thickness and weatherproof nature, sought after for crafting resilient garments and protective gear.</description>
-		<graphicData>
-			<texPath>Items/Resources/MonsterDrops/Unhold/ThickUnholdFur</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-
-		<statBases>
-			<MarketValue>375</MarketValue>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Mass>15</Mass>
-			<Flammability>0.8</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
-
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
-		<defName>ISA_UnholdHide</defName>
-		<label>unhold hide</label>
+	<ThingDef ParentName="LeatherBase">
+		<defName>ISA_Leather_Unhold</defName>
+		<label>unhold leather</label>
 		<description>Robust hides of the formidable unhold, renowned for their thickness and weatherproof nature, sought after for crafting resilient garments and protective gear.</description>
 		<graphicData>
-			<texPath>Items/Resources/MonsterDrops/Unhold/UnholdHide</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<color>(98, 91, 76)</color>
 		</graphicData>
-
 		<statBases>
-			<MarketValue>250</MarketValue>
-			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>10</Mass>
-			<Flammability>0.4</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
+			<MarketValue>4.2</MarketValue>
+			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
 		</statBases>
+		<stuffProps>
+			<color>(98, 91, 76)</color>
+			<commonality>0.0025</commonality>
+		</stuffProps>
 	</ThingDef>
 
-	<!-- Linduwrm -->
+	<!-- Lindwurm Leather -->
 	
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
-		<defName>ISA_LindwurmScales</defName>
-		<label>lindwurm broad scales</label>
-		<description>Tough, durable scales shed from a Lindwurm, prized for their exceptional strength and resilience. Ideal for crafting high-quality armor and protective gear.</description>
+	<ThingDef ParentName="LeatherBase">
+		<defName>ISA_Leather_Lindwurm</defName>
+		<label>lindwurm scales</label>
+		<description>A broad green husks size of a hand, tinting the reflected light emerald. Material both durable and elegant, attracting envious glances.</description>
 		<graphicData>
-			<texPath>Items/Resources/MonsterDrops/Lindwurm/LindwurmScales</texPath>
+			<texPath>Things/Item/Resource/LindwurmScales</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(126,145,65)</color>
 		</graphicData>
-
 		<statBases>
-			<MarketValue>750</MarketValue>
-			<MaxHitPoints>150</MaxHitPoints>
-			<Mass>15</Mass>
-			<Flammability>0</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
+			<MarketValue>20.0</MarketValue>
+			<StuffPower_Armor_Sharp>2.20</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.40</StuffPower_Armor_Blunt>
+			<StuffPower_Insulation_Cold>9</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>34</StuffPower_Insulation_Heat>
 		</statBases>
+		<stuffProps>
+			<color>(126,145,65)</color>
+			<commonality>0.0005</commonality>
+			<statFactors>
+				<MaxHitPoints>2.5</MaxHitPoints>
+				<Beauty>8</Beauty>
+			</statFactors>
+		</stuffProps>
 	</ThingDef>
 
-<!-- Alp -->
-
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
-		<defName>ISA_ParchedSkin</defName>
-		<label>parched skin</label>
-		<description>Soft yet durable hide from an Alp, often used to craft lightweight armor or clothing with subtle protective qualities.</description>
-		<graphicData>
-			<texPath>Items/Resources/MonsterDrops/Alp/ParchedSkin</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>
-		</graphicData>
-
-		<statBases>
-			<MarketValue>150</MarketValue>
-			<MaxHitPoints>40</MaxHitPoints>
-			<Mass>1</Mass>
-			<Flammability>2</Flammability>
-			<DeteriorationRate>0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+	<!--========== Wool ============-->
 	
+	<ThingDef ParentName="WoolBase">
+		<defName>ISA_WoolRox</defName>
+		<label>rox wool</label>
+		<description>Thick, coarse and provides very good insulation. Rox wool clothes can keep the body warm even in very cold conditions.</description>
+		<statBases>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+		</statBases>
+		<graphicData>
+			<color>(80,75,72)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(80,75,72)</color>
+		</stuffProps>
+	</ThingDef>
 </Defs>
