@@ -4,40 +4,40 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
-            <DankPyon_Rox>0.07</DankPyon_Rox>
-		    <DankPyon_Direwolf>0.04</DankPyon_Direwolf>
+            <ISA_Rox>0.07</ISA_Rox>
+		    <ISA_Direwolf>0.04</ISA_Direwolf>
         </value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="BorealForest"]/wildAnimals</xpath>
 		<value>
-			<DankPyon_Direwolf>0.04</DankPyon_Direwolf>
-			<DankPyon_Rox>0.3</DankPyon_Rox>
+			<ISA_Direwolf>0.04</ISA_Direwolf>
+			<ISA_Rox>0.3</ISA_Rox>
         </value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="Tundra"]/wildAnimals</xpath>
 		<value>
-			<DankPyon_Direwolf>0.04</DankPyon_Direwolf>
-			<DankPyon_Rox>0.4</DankPyon_Rox>
+			<ISA_Direwolf>0.04</ISA_Direwolf>
+			<ISA_Rox>0.4</ISA_Rox>
         </value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="ColdBog"]/wildAnimals</xpath>
 		<value>
-			<DankPyon_Direwolf>0.04</DankPyon_Direwolf>
-			<DankPyon_Rox>0.4</DankPyon_Rox>
+			<ISA_Direwolf>0.04</ISA_Direwolf>
+			<ISA_Rox>0.4</DankPyon_Rox>
         </value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="IceSheet"]/wildAnimals</xpath>
 		<value>
-			<DankPyon_Direwolf>0.04</DankPyon_Direwolf>
-			<DankPyon_Rox>0.1</DankPyon_Rox>
+			<ISA_Direwolf>0.04</ISA_Direwolf>
+			<ISA_Rox>0.1</ISA_Rox>
         </value>
 	</Operation>
 
