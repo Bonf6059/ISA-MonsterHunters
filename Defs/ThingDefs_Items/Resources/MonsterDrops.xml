@@ -56,9 +56,7 @@
 
 	<!--=============== Alp ====================-->
 
-	<!-- Disabled because I can't find a way to make monsters drop them, texture is still in the files -->
-
-<!--	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
+	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_PetrifiedScream</defName>
 		<label>petrified scream</label>
 		<description>A unique part of Alp biology, this solidified manifestation of the creature's final cry is a rare and eerie material used in crafting or dark rituals.</description>
@@ -74,7 +72,7 @@
 			<Flammability>2</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
-	</ThingDef>	-->
+	</ThingDef>
 
 	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_ThirdEye</defName>
