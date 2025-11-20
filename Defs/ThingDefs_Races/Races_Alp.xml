@@ -124,7 +124,7 @@
 			<baseHungerRate>2</baseHungerRate>
 			<baseHealthScale>1.5</baseHealthScale>
 			<foodType>CarnivoreAnimalStrict, Corpse</foodType>
-			<leatherDef>ISA_ParchedSkin</leatherDef>
+			<leatherDef>ISA_Leather_Alp</leatherDef>
 			<manhunterOnTameFailChance>1</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<gestationPeriodDays>26</gestationPeriodDays>
