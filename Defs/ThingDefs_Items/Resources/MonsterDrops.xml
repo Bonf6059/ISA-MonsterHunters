@@ -22,7 +22,7 @@
 		<label>unhold heart</label>
 		<description>The beating heart of the fearsome unhold, pulsing with primal power and ancient vitality, considered to be a key ingredient for creating elixirs of endurance.</description>
 		<graphicData>
-			<texPath>Special/UnholdHeart</texPath>
+			<texPath>Items/Resources/MonsterDrops/Unhold/UnholdHeart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 
@@ -78,7 +78,7 @@
 		<label>lindwurm blood</label>
 		<description>The acidic blood of a Lindwurm, carefully preserved in glass. Highly corrosive in nature, it can melt through plate armor in a matter of seconds. Due to it’s offensive capabilities, it is highly sought for by alchemists and hunters.</description>
 		<graphicData>
-			<texPath>Special/LindwurmBlood</texPath>
+			<texPath>Items/Resources/MonsterDrops/Lindwurm/LindwurmBlood</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 
@@ -116,7 +116,7 @@
 		<label>petrified scream</label>
 		<description>A unique part of Alp biology, this solidified manifestation of the creature's final cry is a rare and eerie material used in crafting or dark rituals.</description>
 		<graphicData>
-			<texPath>Special/PetrifiedScream</texPath>
+			<texPath>Items/Resources/MonsterDrops/Alp/PetrifiedScream</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 
@@ -134,7 +134,7 @@
 		<label>third eye</label>
 		<description>A mystical organ from an Alp, known for its ability to perceive beyond the physical realm. Often sought after for use in powerful rituals or crafting items with enhanced perception or psychic abilities.</description>
 		<graphicData>
-			<texPath>Special/ThirdEye</texPath>
+			<texPath>Items/Resources/MonsterDrops/Alp/ThirdEye</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 
@@ -171,7 +171,7 @@
 		<label>adrenaline gland</label>
 		<description>This organ significantly enhances the body's fight-or-flight response, increasing strength, speed, and reaction time when activated. Often used in crafting potent combat stimulants.</description>
 		<graphicData>
-			<texPath>Special/AdrenalineGland</texPath>
+			<texPath>Items/Resources/MonsterDrops/Direwolf/AdrenalineGland</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 
@@ -191,7 +191,7 @@
 		<label>Rox Horn</label>
 		<description>A Rox's horn. It is heavy, durable, and valuable. It is too bulky to be used as a weapon.</description>
 		<graphicData>
-			<texPath>Special/RoxHorn</texPath>
+			<texPath>Items/Resources/MonsterDrops/Rox/RoxHorn</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<equippedAngleOffset>-20</equippedAngleOffset>
