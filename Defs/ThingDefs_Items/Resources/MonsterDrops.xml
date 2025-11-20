@@ -15,7 +15,7 @@
 		</tradeTags>
 	</ThingDef>
 	
-	<!--=============== Unhold Drops ====================-->
+	<!--=============== Unhold Drops ===============-->
 
 	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_UnholdHeart</defName>
@@ -35,7 +35,44 @@
 		</statBases>
 	</ThingDef>
 
-	<!--=============== Lindwurm ====================-->
+	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
+		<defName>ISA_ThickUnholdFur</defName>
+		<label>thick unhold fur</label>
+		<description>Warm furs of the formidable unhold, renowned for their thickness and weatherproof nature, sought after for crafting resilient garments and protective gear.</description>
+		<graphicData>
+			<texPath>Items/Resources/MonsterDrops/Unhold/ThickUnholdFur</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<statBases>
+			<MarketValue>375</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>15</Mass>
+			<Flammability>0.8</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
+		<defName>ISA_UnholdHide</defName>
+		<label>unhold hide</label>
+		<description>Robust hides of the formidable unhold, renowned for their thickness and weatherproof nature, sought after for crafting resilient garments and protective gear.</description>
+		<graphicData>
+			<texPath>Items/Resources/MonsterDrops/Unhold/UnholdHide</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>10</Mass>
+			<Flammability>0.4</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+
+	<!--=============== Lindwurm Drops ===============-->
+	
 	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_LindwurmBlood</defName>
 		<label>lindwurm blood</label>
@@ -54,7 +91,25 @@
 		</statBases>
 	</ThingDef>
 
-	<!--=============== Alp ====================-->
+	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
+		<defName>ISA_LindwurmScales</defName>
+		<label>lindwurm broad scales</label>
+		<description>Tough, durable scales shed from a Lindwurm, prized for their exceptional strength and resilience. Ideal for crafting high-quality armor and protective gear.</description>
+		<graphicData>
+			<texPath>Items/Resources/MonsterDrops/Lindwurm/LindwurmScales</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+
+		<statBases>
+			<MarketValue>750</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>15</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+
+	<!--=============== Alp ===============-->
 
 	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_PetrifiedScream</defName>
@@ -92,7 +147,25 @@
 		</statBases>
 	</ThingDef>
 
-	<!-- Dire Wolf -->
+	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
+		<defName>ISA_ParchedSkin</defName>
+		<label>parched skin</label>
+		<description>Soft yet durable hide from an Alp, often used to craft lightweight armor or clothing with subtle protective qualities.</description>
+		<graphicData>
+			<texPath>Items/Resources/MonsterDrops/Alp/ParchedSkin</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<MaxHitPoints>40</MaxHitPoints>
+			<Mass>1</Mass>
+			<Flammability>2</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+
+	<!--=============== Dire Wolf ===============-->
 	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_AdrenalineGland</defName>
 		<label>adrenaline gland</label>
@@ -111,7 +184,7 @@
 		</statBases>
 	</ThingDef>
 
-	<!--=============== Rox horn ====================-->
+	<!--=============== Rox horn ===============-->
 	
 	<ThingDef ParentName="ResourceVerbBase">
 		<defName>ISA_RoxHorn</defName>
@@ -171,5 +244,5 @@
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
 	</ThingDef>
-	
+
 </Defs>
