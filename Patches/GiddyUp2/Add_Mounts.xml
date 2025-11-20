@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Farm Animals -->
+<!--	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[
+					defName = "DankPyon_Hampshire" or
+					defName = "DankPyon_Gloucestershire" or
+					defName = "DankPyon_NorthernBoar" or
+					defName = "DankPyon_Ravelder" or
+					defName = "DankPyon_Angus" or
+					defName="DankPyon_Hyena"
+					]		</xpath>
+		<value>
+			<li Class="GiddyUp.NotMountable"/>
+		</value>
+	</Operation>  -->
+
+	<!-- Rox -->
+  
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="DankPyon_Rox"]</xpath>
+		<value>
+			<li Class="GiddyUp.DrawingOffset">
+				<!--Offsets can be configured for each view (north, south, west, east) separately using comma separated floating point values-->
+				<northOffset>0.0,0.0,-0.4</northOffset><!--x,y,z coordinates. Mind that x: horizontal axis, y: drawing priority, z: vertical axis -->
+				<southOffset>0.0,0.0,-0.6</southOffset>
+				<eastOffset>-0.1,0.0,-0.3</eastOffset>
+				<westOffset>0.1,0.0,-0.3</westOffset>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="DankPyon_Rox"]/comps</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="DankPyon_Rox"]/comps</xpath>
+			<value>
+				<li Class="GiddyUp.CompProperties_Overlay">
+					<overlayFront>
+						<graphicDataDefault>
+							<graphicClass>Graphic_Single</graphicClass>
+							<drawSize>4.2</drawSize>
+							<drawRotated>false</drawRotated>
+							<texPath>Animal/Rox/Rox_south_giddyup</texPath>
+						</graphicDataDefault>
+					</overlayFront>
+				</li>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="DankPyon_Rox"]</xpath>
+			<value>
+				<comps>
+					<li Class="GiddyUp.CompProperties_Overlay">
+						<overlayFront>
+							<graphicDataDefault>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>4.2</drawSize>
+								<drawRotated>false</drawRotated>
+								<texPath>Animal/Rox/Rox_south_giddyup</texPath>
+							</graphicDataDefault>
+						</overlayFront>
+					</li>
+				</comps>
+			</value>
+		</nomatch>
+	</Operation>
+
+	<!-- Lindwurm -->
+  
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>XML Extensions</li>
+		</mods>
+		<nomatch Class="PatchOperationAddModExtension">
+			<xpath>Defs/ThingDef[defName = "DankPyon_LindwurmForest" or defName="DankPyon_LindwurmCave"]</xpath>
+			<value>
+				<li Class="GiddyUp.NotMountable"/>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>
