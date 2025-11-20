@@ -149,6 +149,9 @@
 			<ISA_ThirdEye>1</ISA_ThirdEye>
 			<ISA_PetrifiedScream>1</ISA_PetrifiedScream>
 		</butcherProducts>
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
