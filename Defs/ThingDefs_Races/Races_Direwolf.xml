@@ -129,6 +129,10 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
+		<!-- da usare come piano B nel caso butcher body part non va --> 
+<!--		<butcherProducts>
+			<ISA_AdrenalineGland>1</ISA_AdrenalineGland>
+		</butcherProducts>	-->
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
