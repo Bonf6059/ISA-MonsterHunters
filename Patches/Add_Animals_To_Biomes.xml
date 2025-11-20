@@ -45,8 +45,8 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="SeaIce"]/wildAnimals</xpath>
 		<value>
-			<DankPyon_Direwolf>0.04</DankPyon_Direwolf>
-			<DankPyon_Rox>0.1</DankPyon_Rox>
+			<ISA_Direwolf>0.04</ISA_Direwolf>
+			<ISA_Rox>0.1</ISA_Rox>
         </value>
 	</Operation>	
 
