@@ -61,13 +61,34 @@
 		<label>unhold leather</label>
 		<description>Robust hides of the formidable unhold, renowned for their thickness and weatherproof nature, sought after for crafting resilient garments and protective gear.</description>
 		<graphicData>
-			<color>(98, 91, 76)</color>
+			<texPath>Items/Resources/MonsterDrops/Unhold/UnholdHide</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
 			<MarketValue>4.2</MarketValue>
 			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
 			<StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(98, 91, 76)</color>
+			<commonality>0.0025</commonality>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="LeatherBase">
+		<defName>ISA_Leather_UnholdSnow</defName>
+		<label>thick unhold fur</label>
+		<description>Warm furs of the formidable unhold, renowned for their thickness and weatherproof nature, sought after for crafting resilient garments and protective gear.</description>
+		<graphicData>
+			<texPath>Items/Resources/MonsterDrops/Unhold/ThickUnholdFur</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>4.2</MarketValue>
+			<StuffPower_Armor_Sharp>0.9</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>40</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
 		</statBases>
 		<stuffProps>
 			<color>(98, 91, 76)</color>
@@ -82,9 +103,8 @@
 		<label>lindwurm scales</label>
 		<description>A broad green husks size of a hand, tinting the reflected light emerald. Material both durable and elegant, attracting envious glances.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/LindwurmScales</texPath>
+			<texPath>Items/Resources/MonsterDrops/Lindwurm/LindwurmScales</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(126,145,65)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>20.0</MarketValue>
