@@ -125,10 +125,6 @@
 			<baseHealthScale>1.5</baseHealthScale>
 			<foodType>CarnivoreAnimalStrict, Corpse</foodType>
 			<leatherDef>ISA_ParchedSkin</leatherDef>
-			<butcherBodyPart>
-        		<bodyPartGroup>Eye</bodyPartGroup>	<!-- Vedere se sostituire con lingua e ISA_PetrifiedScream -->
-				<thing>ISA_ThirdEye</thing>
-      		</butcherBodyPart>
 			<manhunterOnTameFailChance>1</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<gestationPeriodDays>26</gestationPeriodDays>
@@ -149,11 +145,10 @@
 			<needsRest>false</needsRest>
 			<alwaysViolent>true</alwaysViolent>
 		</race>
-		<!-- da usare come piano B nel caso butcher body part non va --> 
-<!--		<butcherProducts>
+		<butcherProducts>
 			<ISA_ThirdEye>1</ISA_ThirdEye>
 			<ISA_PetrifiedScream>1</ISA_PetrifiedScream>
-		</butcherProducts>	-->
+		</butcherProducts>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
