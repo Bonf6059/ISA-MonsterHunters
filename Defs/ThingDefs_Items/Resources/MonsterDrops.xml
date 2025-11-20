@@ -35,7 +35,7 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
+<!--	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_ThickUnholdFur</defName>
 		<label>thick unhold fur</label>
 		<description>Warm furs of the formidable unhold, renowned for their thickness and weatherproof nature, sought after for crafting resilient garments and protective gear.</description>
@@ -50,10 +50,10 @@
 			<Mass>15</Mass>
 			<Flammability>0.8</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
-		</statBases>
-	</ThingDef>
+		</statBases>	
+	</ThingDef>	-->
 
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
+<!--	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_UnholdHide</defName>
 		<label>unhold hide</label>
 		<description>Robust hides of the formidable unhold, renowned for their thickness and weatherproof nature, sought after for crafting resilient garments and protective gear.</description>
@@ -69,7 +69,7 @@
 			<Flammability>0.4</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
-	</ThingDef>
+	</ThingDef>	-->
 
 	<!--=============== Lindwurm Drops ===============-->
 	
@@ -91,7 +91,7 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
+<!--	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_LindwurmScales</defName>
 		<label>lindwurm broad scales</label>
 		<description>Tough, durable scales shed from a Lindwurm, prized for their exceptional strength and resilience. Ideal for crafting high-quality armor and protective gear.</description>
@@ -107,7 +107,7 @@
 			<Flammability>0</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
-	</ThingDef>
+	</ThingDef>	-->
 
 	<!--=============== Alp ===============-->
 
@@ -147,7 +147,7 @@
 		</statBases>
 	</ThingDef>
 
-	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
+<!--	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
 		<defName>ISA_ParchedSkin</defName>
 		<label>parched skin</label>
 		<description>Soft yet durable hide from an Alp, often used to craft lightweight armor or clothing with subtle protective qualities.</description>
@@ -163,7 +163,7 @@
 			<Flammability>2</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
-	</ThingDef>
+	</ThingDef>	-->
 
 	<!--=============== Dire Wolf ===============-->
 	<ThingDef ParentName="ISA_AlchemyIngredientsBase">
