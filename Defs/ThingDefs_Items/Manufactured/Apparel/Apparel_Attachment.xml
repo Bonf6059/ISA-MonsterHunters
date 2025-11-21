@@ -246,8 +246,8 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<ISA_Leather_Lindwurm>2</ISA_Leather_Lindwurm>
-			<ISA_Leather_Unhold>1</ISA_Leather_Unhold>
+			<ISA_Leather_Lindwurm>20</ISA_Leather_Lindwurm>
+			<ISA_Leather_Unhold>10</ISA_Leather_Unhold>
 		</costList>
 		<statBases>
 			<MaxHitPoints>160</MaxHitPoints>
@@ -289,7 +289,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<ISA_Leather_UnholdSnow>2</ISA_Leather_UnholdSnow>
+			<ISA_Leather_UnholdSnow>20</ISA_Leather_UnholdSnow>
 		</costList>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -328,7 +328,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<ISA_Leather_UnholdSnow>1</ISA_Leather_UnholdSnow>
+			<ISA_Leather_UnholdSnow>10</ISA_Leather_UnholdSnow>
 			<ISA_Leather_Direwolf>65</ISA_Leather_Direwolf>
 		</costList>
 		<statBases>
@@ -360,7 +360,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<ISA_Leather_Alp>2</ISA_Leather_Alp>
+			<ISA_Leather_Alp>20</ISA_Leather_Alp>
 		</costList>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
