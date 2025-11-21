@@ -58,11 +58,22 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef [defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
-			<ISA_Alp>0.04</ISA_Alp>
+		<!--	<ISA_Alp>0.04</ISA_Alp>
             <ISA_Rox>0.07</ISA_Rox>
 		    <ISA_Direwolf>0.04</ISA_Direwolf>
 			<ISA_UnholdPlain>0.01</ISA_UnholdPlain>
-			<ISA_LindwurmForest>0.01</ISA_LindwurmForest>
+			<ISA_LindwurmForest>0.01</ISA_LindwurmForest>	-->
+
+			<ISA_Alp>1</ISA_Alp>
+            <ISA_Rox>1</ISA_Rox>
+		    <ISA_Direwolf>1</ISA_Direwolf>
+			<ISA_UnholdPlain>1</ISA_UnholdPlain>
+			<ISA_UnholdSwamp>1</ISA_UnholdSwamp>
+			<ISA_UnholdSnow>1</ISA_UnholdSnow>
+			<ISA_LindwurmCave>1</ISA_LindwurmCave>
+			<ISA_LindwurmForest>1</ISA_LindwurmForest>
+
+			
         </value>
 	</Operation>
 
