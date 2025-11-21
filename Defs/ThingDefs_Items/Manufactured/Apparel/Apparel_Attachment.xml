@@ -267,12 +267,12 @@
 			<wornGraphicPath>Pawn/Humanlike/Apparel/Attachments/LindwurmScaleCloak</wornGraphicPath>
 			<useWornGraphicMask>false</useWornGraphicMask>
 		</apparel>
-		<comps>
+	<!--	<comps>
 		  <li Class="CompProperties_CauseHediff_Apparel">
 			<hediff>ISA_LindwurmAcidImmune</hediff>
 			<part>Body</part>
 		  </li>
-		</comps>
+		</comps>	-->
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_ArmorAttachmentBase">
@@ -306,12 +306,12 @@
 			<wornGraphicPath>Pawn/Humanlike/Apparel/Attachments/FurCoat</wornGraphicPath>
 			<useWornGraphicMask>false</useWornGraphicMask>
 		</apparel>
-		<comps>
+	<!--	<comps>
 		  <li Class="CompProperties_CauseHediff_Apparel">
 			<hediff>ISA_DazeImmune</hediff>
 			<part>Body</part>
 		  </li>
-		</comps>
+		</comps>	-->
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_ArmorAttachmentBase">
@@ -376,12 +376,12 @@
 			<wornGraphicPath>Pawn/Humanlike/Apparel/Attachments/RunesAndSigils</wornGraphicPath>
 			<useWornGraphicMask>false</useWornGraphicMask>
 		</apparel>
-		<comps>
+	<!--	<comps>
 		  <li Class="CompProperties_CauseHediff_Apparel">
 			<hediff>ISA_SigilMood</hediff>
 			<part>Body</part>
 		  </li>
-		</comps>
+		</comps>	-->
 	</ThingDef>
 
 </Defs>
