@@ -232,37 +232,37 @@
 				<label>unhold baby</label>
 				<labelPlural>unhold babies</labelPlural>
 				<bodyGraphicData>
-					<texPath>Pawn/Unhold/UnholdSnow</texPath>
+					<texPath>Pawn/Animals/Unhold/UnholdSnow</texPath>
 					<drawSize>2.05</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Pawn/Unhold/Unhold_dessicated</texPath>
+					<texPath>Pawn/Animals/Unhold/Unhold_dessicated</texPath>
 					<drawSize>2.05</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Pawn/Unhold/UnholdSnow</texPath>
+					<texPath>Pawn/Animals/Unhold/UnholdSnow</texPath>
 					<drawSize>2.8</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Pawn/Unhold/Unhold_dessicated</texPath>
+					<texPath>Pawn/Animals/Unhold/Unhold_dessicated</texPath>
 					<drawSize>2.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Pawn/Unhold/UnholdSnow</texPath>
+					<texPath>Pawn/Animals/Unhold/UnholdSnow</texPath>
 					<drawSize>3.8</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Pawn/Unhold/Unhold_dessicated</texPath>
+					<texPath>Pawn/Animals/Unhold/Unhold_dessicated</texPath>
 					<drawSize>3.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -283,37 +283,37 @@
 				<label>unhold baby</label>
 				<labelPlural>unhold babies</labelPlural>
 				<bodyGraphicData>
-					<texPath>Pawn/Unhold/UnholdPlain</texPath>
+					<texPath>Pawn/Animals/Unhold/UnholdPlain</texPath>
 					<drawSize>2.05</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Pawn/Unhold/Unhold_dessicated</texPath>
+					<texPath>Pawn/Animals/Unhold/Unhold_dessicated</texPath>
 					<drawSize>2.05</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Pawn/Unhold/UnholdPlain</texPath>
+					<texPath>Pawn/Animals/Unhold/UnholdPlain</texPath>
 					<drawSize>2.8</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Pawn/Unhold/Unhold_dessicated</texPath>
+					<texPath>Pawn/Animals/Unhold/Unhold_dessicated</texPath>
 					<drawSize>2.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Pawn/Unhold/UnholdPlain</texPath>
+					<texPath>Pawn/Animals/Unhold/UnholdPlain</texPath>
 					<drawSize>3.8</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Pawn/Unhold/Unhold_dessicated</texPath>
+					<texPath>Pawn/Animals/Unhold/Unhold_dessicated</texPath>
 					<drawSize>3.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -334,37 +334,37 @@
 				<label>unhold baby</label>
 				<labelPlural>unhold babies</labelPlural>
 				<bodyGraphicData>
-					<texPath>Pawn/Unhold/UnholdSwamp</texPath>
+					<texPath>Pawn/Animals/Unhold/UnholdSwamp</texPath>
 					<drawSize>2.05</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Pawn/Unhold/Unhold_dessicated</texPath>
+					<texPath>Pawn/Animals/Unhold/Unhold_dessicated</texPath>
 					<drawSize>2.05</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Pawn/Unhold/UnholdSwamp</texPath>
+					<texPath>Pawn/Animals/Unhold/UnholdSwamp</texPath>
 					<drawSize>2.8</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Pawn/Unhold/Unhold_dessicated</texPath>
+					<texPath>Pawn/Animals/Unhold/Unhold_dessicated</texPath>
 					<drawSize>2.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Pawn/Unhold/UnholdSwamp</texPath>
+					<texPath>Pawn/Animals/Unhold/UnholdSwamp</texPath>
 					<drawSize>3.8</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Pawn/Unhold/Unhold_dessicated</texPath>
+					<texPath>Pawn/Animals/Unhold/Unhold_dessicated</texPath>
 					<drawSize>3.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
