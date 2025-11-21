@@ -8,8 +8,8 @@
 		<statBases>
 			<MoveSpeed>5.0</MoveSpeed>
 			<MarketValue>2500</MarketValue>
-			<ComfyTemperatureMin>-65</ComfyTemperatureMin>
-      		<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      		<ComfyTemperatureMax>45</ComfyTemperatureMax>
 			<FilthRate>2</FilthRate>
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
 			<ArmorRating_Blunt>0.48</ArmorRating_Blunt>
@@ -208,7 +208,7 @@
 		<statBases>
 			<MoveSpeed>5.0</MoveSpeed>
 			<MarketValue>2800</MarketValue>
-			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+			<ComfyTemperatureMin>-75</ComfyTemperatureMin>
 			<FilthRate>2</FilthRate>
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
 			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
