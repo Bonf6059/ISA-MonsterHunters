@@ -20,16 +20,16 @@
 	</ApparelLayerDef>
 
 	<ApparelLayerDef>
-		<defName>ISA_ShellAttachment</defName>
-		<label>attachment</label>
-		<drawOrder>10</drawOrder>
-	</ApparelLayerDef>
-	
-	<ApparelLayerDef>
 		<defName>ISA_InnerHelmet</defName>
 		<label>inner helmet</label>
 		<drawOrder>399</drawOrder>
 	</ApparelLayerDef>  -->
+	
+	<ApparelLayerDef>
+		<defName>ISA_ShellAttachment</defName>
+		<label>attachment</label>
+		<drawOrder>10</drawOrder>
+	</ApparelLayerDef>
 
 	<ApparelLayerDef>
 		<defName>ISA_Hood</defName>
