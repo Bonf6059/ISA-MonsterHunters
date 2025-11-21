@@ -2,7 +2,7 @@
 <Defs>
 
 	<FactionDef ParentName="FactionBase">
-		<defName>DankPyon_SnakeCave_Faction</defName>
+		<defName>ISA_SnakeCave_Faction</defName>
 		<label>cave snakes</label>
 		<description>These giant reptilian creatures live underground and burrow up to attack when attracted by noise or pheromone signals.</description>
 		<pawnSingular>cave snake</pawnSingular>
@@ -46,7 +46,7 @@
 				<kindDef>Combat</kindDef>
 				<commonality>100</commonality>
 				<options>
-					<DankPyon_LindwurmCave>10</DankPyon_LindwurmCave>
+					<ISA_LindwurmCave>10</ISA_LindwurmCave>
 				</options>
 			</li>
 		</pawnGroupMakers>
