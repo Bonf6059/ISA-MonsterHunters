@@ -32,7 +32,7 @@
 						<li>Leather_Wolf</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>35</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -56,7 +56,7 @@
 						<li>Leather_Wolf</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>35</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -80,7 +80,7 @@
 						<li>Leather_Bear</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>65</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -104,7 +104,7 @@
 						<li>Leather_Bear</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>65</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -130,7 +130,7 @@
 						<li>ISA_Leather_Direwolf</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>30</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -156,7 +156,7 @@
 						<li>ISA_Leather_Hyena</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>30</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -182,7 +182,7 @@
 						<li>ISA_Leather_Lindwurm</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -190,7 +190,7 @@
 						<li>ISA_Leather_Unhold</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -217,7 +217,7 @@
 						<li>ISA_Leather_UnholdSnow</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -243,7 +243,7 @@
 						<li>ISA_Leather_UnholdSnow</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -251,7 +251,7 @@
 						<li>ISA_Leather_Direwolf</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>35</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -278,7 +278,7 @@
 						<li>ISA_Leather_Alp</li>
 					</thingDefs>
 				</filter>
-				<count>2</count>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
