@@ -173,7 +173,7 @@
 		<label>direwolf pelt</label>
 		<description>A warm robust coat sewn from a direwolf's fur. Wearing the pelt displays owner's strength, as it is proof that they have slain a ferocious wolf to don the trophy.</description>
 		<graphicData>
-			<texPath>Pawn/Humanlike/Apparel/Attachments/DirewolfPelt</texPath>
+			<texPath>Pawn/Humanlike/Apparel/Attachments/DirewolfPelt/DirewolfPelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(85,79,74)</color>
 		</graphicData>
@@ -203,7 +203,7 @@
 		<label>hyena pelt</label>
 		<description>A warm robust coat sewn from a hyena's fur. Wearing the pelt displays owner's strength, as it is proof that they have slain a ferocious hyena to don the trophy. While intimidating the fearful, the pelt also grants strength and confidence in battle.</description>
 		<graphicData>
-			<texPath>Pawn/Humanlike/Apparel/Attachments/HyenaPelt</texPath>
+			<texPath>Pawn/Humanlike/Apparel/Attachments/HyenaPelt/HyenaPelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -237,7 +237,7 @@
 		<label>lindwurm scale cloak</label>
 		<description>A scaly robust cloak sewn from a lindwurm's scales. Wearing the cloak displays owner's strength, as it is proof that they have slain a dangerous lindwurm to don the trophy. \n\nGrants immunity to lindwurm acid.</description>
 		<graphicData>
-			<texPath>Pawn/Humanlike/Apparel/Attachments/LindwurmScaleCloak</texPath>
+			<texPath>Pawn/Humanlike/Apparel/Attachments/LindwurmScaleCloak/LindwurmScaleCloak</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -280,7 +280,7 @@
 		<label>fur cloak</label>
 		<description>A warm robust coat sewn from a thick unhold fur. Wearing the pelt displays owner's strength, as it is proof that they have slain an unhold to don the trophy. While intimidating the fearful, the cloak also grants the ability to shrug staggering hits.</description>
 		<graphicData>
-			<texPath>Pawn/Humanlike/Apparel/Attachments/FurCoat</texPath>
+			<texPath>Pawn/Humanlike/Apparel/Attachments/FurCoat/FurCoat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -319,7 +319,7 @@
 		<label>additional fur padding</label>
 		<description>Additional padding made from Unhold Fur and the hide of a Direwolf. Wearing the pelt displays owner's strength, as it is proof that they have slain an unhold to don the trophy. While intimidating the fearful, the additional padding cushions blows upon the wearer.</description>
 		<graphicData>
-			<texPath>Pawn/Humanlike/Apparel/Attachments/FurPadding</texPath>
+			<texPath>Pawn/Humanlike/Apparel/Attachments/FurPadding/FurPadding</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
@@ -351,7 +351,7 @@
 		<label>runes and sigils</label>
 		<description>Enchanted clothing adorned with mystical runes and sigils, boosting the wearer's mental fortitude</description>
 		<graphicData>
-			<texPath>Pawn/Humanlike/Apparel/Attachments/RunesAndSigils</texPath>
+			<texPath>Pawn/Humanlike/Apparel/Attachments/RunesAndSigils/RunesAndSigils</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
