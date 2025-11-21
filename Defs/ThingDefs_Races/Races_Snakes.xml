@@ -177,7 +177,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texpath>Pawn/Animals/Lindwurm/Dessicated_Lindwurm</texPath>
+					<texpath>Pawn/Animals/Lindwurm/Dessicated_Lindwurm</texpath>
 					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
