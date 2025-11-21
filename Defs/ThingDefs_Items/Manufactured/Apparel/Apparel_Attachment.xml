@@ -6,7 +6,7 @@
 		<recipeMaker>
 			<recipeUsers Inherit="False"/>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-		</recipeMaker>
+		</recipeMaker>	
 		<tradeTags Inherit="false">
 			<li>Taxidermy</li>
 		</tradeTags>
@@ -22,9 +22,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(107,103,99)</color>
 		</graphicData>
-	<!--	<costList>
+		<costList>
 			<Leather_Wolf>30</Leather_Wolf> 
-		</costList>	-->
+		</costList>	
 		<statBases>
 			<MarketValue>350</MarketValue>
 			<!-- <WorkToMake>14000</WorkToMake> -->
@@ -62,9 +62,9 @@
 		<graphicData>
 			<color>(249,243,222)</color>
 		</graphicData>
-	<!--	<costList Inherit="false">
+		<costList Inherit="false">
 			<Leather_Wolf>30</Leather_Wolf> 
-		</costList>	-->
+		</costList>	
 	</ThingDef>
 
 	<ThingDef ParentName="ISA_AnimalHoodBase" Name="ISA_BearHoodBase">
@@ -76,9 +76,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(112,82,65)</color>
 		</graphicData>
-	<!--	<costList>
+		<costList>
 			<Leather_Bear>65</Leather_Bear>
-		</costList>	-->
+		</costList>	
 		<statBases>
 			<MarketValue>550</MarketValue>
 			<MaxHitPoints>140</MaxHitPoints>
@@ -115,9 +115,9 @@
 		<graphicData>
 			<color>(180,180,180)</color>
 		</graphicData>
-	<!--	<costList Inherit="false">
+		<costList Inherit="false">
 			<Leather_Bear>65</Leather_Bear>
-		</costList>	-->
+		</costList>	
 	</ThingDef>
 
 	<!-- Armor Attachment Base-->
@@ -158,7 +158,7 @@
 		</apparel>
 		<recipeMaker>
 			<recipeUsers Inherit="False"/>
-		</recipeMaker>
+		</recipeMaker>	
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
@@ -177,9 +177,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(85,79,74)</color>
 		</graphicData>
-	<!--	<costList>
+		<costList>
 			<ISA_Leather_Direwolf>30</ISA_Leather_Direwolf>
-		</costList>	-->
+		</costList>	
 		<statBases>
 			<MarketValue>450</MarketValue>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -205,8 +205,8 @@
 		<graphicData>
 			<texPath>Pawn/Humanlike/Apparel/Attachments/HyenaPelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<recipeMaker>
+		</graphicData>	-->
+	<!--	<recipeMaker>
 			<skillRequirements>
 				<Crafting>4</Crafting>
 			</skillRequirements>
@@ -244,11 +244,11 @@
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>
-		</recipeMaker>
-	<!--	<costList>
+		</recipeMaker>	
+		<costList>
 			<ISA_Leather_Lindwurm>20</ISA_Leather_Lindwurm>
 			<ISA_Leather_Unhold>10</ISA_Leather_Unhold>
-		</costList>	-->
+		</costList>	
 		<statBases>
 			<MaxHitPoints>160</MaxHitPoints>
 			<Mass>4</Mass>
@@ -287,10 +287,10 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
-		</recipeMaker>
-	<!--	<costList>
+		</recipeMaker>	
+		<costList>
 			<ISA_Leather_UnholdSnow>20</ISA_Leather_UnholdSnow>
-		</costList>	-->
+		</costList>	
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>19000</WorkToMake>
@@ -326,11 +326,11 @@
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
-		</recipeMaker>
-	<!--	<costList>
+		</recipeMaker>	
+		<costList>
 			<ISA_Leather_UnholdSnow>10</ISA_Leather_UnholdSnow>
 			<ISA_Leather_Direwolf>65</ISA_Leather_Direwolf>
-		</costList>	-->
+		</costList>	
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Mass>4</Mass>
@@ -359,9 +359,9 @@
 				<Crafting>4</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-	<!--	<costList>
+		<costList>
 			<ISA_Leather_Alp>20</ISA_Leather_Alp>
-		</costList>	-->
+		</costList>	
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>2</Mass>
