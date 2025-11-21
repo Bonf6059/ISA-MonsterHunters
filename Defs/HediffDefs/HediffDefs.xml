@@ -205,5 +205,24 @@
 		  <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
 		</injuryProps>
 	  </HediffDef>
-  
+
+<!-- Runes and Sigils -->
+	
+	<HediffDef>
+		<defName>ISA_SigilMood</defName>
+		<label>rune sigil</label>
+		<description>Increased mood from sigil</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<makesSickThought>false</makesSickThought>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_RemoveIfApparelDropped"/>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>true</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+	
 </Defs>
