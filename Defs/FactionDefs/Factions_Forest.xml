@@ -9,7 +9,7 @@
 		<pawnsPlural>trees</pawnsPlural>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<fixedName>Creatures of the Forest</fixedName>
-		<factionIconPath>WorldObjects/Forest</factionIconPath>
+		<factionIconPath>World/WorldObjects/Expanding/Insects</factionIconPath>
 		<colorSpectrum>
 			<li>(0.78, 0.79, 0.71)</li>
 		</colorSpectrum>
