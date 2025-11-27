@@ -9,3 +9,5 @@
 
 # Old updates
 
+27/11/2025
+- Updated Logo
