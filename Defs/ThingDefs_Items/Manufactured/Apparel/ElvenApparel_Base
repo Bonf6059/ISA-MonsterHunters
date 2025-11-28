@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- DevDesigner_Elves_ApparelMetal -->
+  <ThingDef Name="DevDesigner_Elves_ApparelMetal" Abstract="True" ParentName="ArmorSmithableBase">
+    <techLevel>Medieval</techLevel>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0.001</generateCommonality>
+
+    <recipeMaker>
+      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- DevDesigner_Elves_BreastplateBase -->
+  <ThingDef Name="DevDesigner_Elves_BreastplateBase" Abstract="True" ParentName="DevDesigner_Elves_ApparelMetal">
+    <description>This elegant elven breastplate is a true masterpiece. Crafted by the skilled hands of elven artisans, it is made from the finest steel and imbued with powerful elven magic. The breastplate is etched with intricate designs that seem to shimmer and change in the light. It is not only a work of art, but also provides excellent protection in battle. The breastplate is carefully tailored to fit the wearer like a glove, allowing for maximum mobility and comfort.</description>
+    <costStuffCount>200</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Mass>12</Mass>
+      <StuffEffectMultiplierArmor>0.75</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.22</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>15</EquipDelay>
+    </statBases>
+
+    <equippedStatOffsets>
+      <MoveSpeed>-0.75</MoveSpeed>
+      <SocialImpact>0.20</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
+    </equippedStatOffsets>
+
+    <apparel>
+      <bodyPartGroups>
+        <!-- <li>Neck</li> -->
+        <!-- <li>Shoulders</li> -->
+        <!-- <li>Arms</li> -->
+        <li>Torso</li>
+        <!-- <li>Waist</li> -->
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <defaultOutfitTags></defaultOutfitTags>
+    </apparel>
+
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.33,0.33,0.33)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>(0.65,0.65,0.65)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>(0.3,0.3,0.3)</min>
+          <max>(0.5,0.5,0.5)</max>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  <!-- DevDesigner_Elves_MetalHeadgear -->
+  <ThingDef Name="DevDesigner_Elves_MetalHeadgear" Abstract="True" ParentName="HatMakeableBase">
+    <techLevel>Medieval</techLevel>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0.001</generateCommonality>
+
+    <recipeMaker>
+      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- DevDesigner_Elves_ClothHeadgear -->
+  <ThingDef Name="DevDesigner_Elves_ClothHeadgear" Abstract="true" ParentName="HatMakeableBase">
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+
+    <uiIconScale>1.05</uiIconScale>
+
+    <recipeMaker>
+      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- DevDesigner_Elves_Apparel -->
+  <ThingDef Name="DevDesigner_Elves_Apparel" Abstract="True" ParentName="ApparelMakeableBase">
+    <techLevel>Medieval</techLevel>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0.00001</generateCommonality>
+
+    <recipeMaker>
+      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- DevDesigner_WoodElves_MetalHeadgear -->
+  <ThingDef Name="DevDesigner_WoodElves_MetalHeadgear" Abstract="True" ParentName="DevDesigner_Elves_MetalHeadgear">
+    <recipeMaker>
+      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- DevDesigner_WoodElves_ClothHeadgear -->
+  <ThingDef Name="DevDesigner_WoodElves_ClothHeadgear" Abstract="true" ParentName="DevDesigner_Elves_ClothHeadgear">
+    <recipeMaker>
+      <researchPrerequisite>DevDesigner_ElvenEquipment_WoodElves</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- DevDesigner_WoodElves_ShamanCrownBase -->
+  <ThingDef Name="DevDesigner_WoodElves_ShamanCrownBase" Abstract="True" ParentName="DevDesigner_WoodElves_MetalHeadgear">
+    <label>shaman crown</label>
+    <description>...</description>
+
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.3</Mass>
+      <EquipDelay>0.8</EquipDelay>
+      <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+
+    <equippedStatOffsets>
+      <SocialImpact>0.25</SocialImpact>
+      <PsychicSensitivity>0.05</PsychicSensitivity>
+      <PsychicEntropyRecoveryRate>0.033</PsychicEntropyRecoveryRate>
+      <MeditationFocusGain>0.1</MeditationFocusGain>
+    </equippedStatOffsets>
+
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+
+  </ThingDef>
+</Defs>
