@@ -99,6 +99,15 @@
         <severityPerDay>-3.0</severityPerDay>
         <showHoursToRecover>true</showHoursToRecover>
       </li>
+		
+			<!-- DISATTIVATO PERCHè NON MI RICORDO COSA FA painFactor MA è UNA VALIDA ALTERNATIVA, FORSE-->
+			
+		<!--	<li Class="EBSGFramework.HediffCompProperties_DamageOverTime">
+                <damage>Burn</damage>
+                <createFilth>False</createFilth>
+                <damageAttachedPart>True</damageAttachedPart>
+            </li>	-->
+		
     </comps>
       <stages>
         
