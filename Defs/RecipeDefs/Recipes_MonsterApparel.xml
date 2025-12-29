@@ -265,30 +265,4 @@
 		</products>
 	</RecipeDef>
 
-	<RecipeDef ParentName="ISA_HoodBase">
-		<defName>ISA_Apparel_RunesAndSigils</defName>
-		<description>Craft runes and sigils.</description>
-		<jobString>Crafting runes and sigils.</jobString>
-		<label>craft runes and sigils</label>
-		<workAmount>16000</workAmount>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ISA_Leather_Alp</li>
-					</thingDefs>
-				</filter>
-				<count>20</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>ISA_Leather_Alp</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<ISA_Apparel_RunesAndSigils>1</ISA_Apparel_RunesAndSigils>
-		</products>
-	</RecipeDef>
-
 </Defs>
