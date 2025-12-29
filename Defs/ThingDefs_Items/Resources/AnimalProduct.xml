@@ -55,24 +55,4 @@
 		</comps>
 	</ThingDef> 
 
-	<!--========== Wool ============-->
-
-	<!-- Rox -->
-	
-	<ThingDef ParentName="WoolBase">
-		<defName>ISA_WoolRox</defName>
-		<label>rox wool</label>
-		<description>Thick, coarse and provides very good insulation. Rox wool clothes can keep the body warm even in very cold conditions.</description>
-		<statBases>
-			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
-			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
-		</statBases>
-		<graphicData>
-			<color>(80,75,72)</color>
-		</graphicData>
-		<stuffProps>
-			<color>(80,75,72)</color>
-		</stuffProps>
-	</ThingDef>
-
 </Defs>
