@@ -59,13 +59,11 @@
 		<xpath>Defs/BiomeDef [defName="TemperateForest"]/wildAnimals</xpath>
 		<value>
 		<!--	<ISA_Alp>0.04</ISA_Alp>
-            <ISA_Rox>0.07</ISA_Rox>
 		    <ISA_Direwolf>0.04</ISA_Direwolf>
 			<ISA_UnholdPlain>0.01</ISA_UnholdPlain>
 			<ISA_LindwurmForest>0.01</ISA_LindwurmForest>	-->
 
 			<ISA_Alp>1</ISA_Alp>
-            <ISA_Rox>1</ISA_Rox>
 		    <ISA_Direwolf>1</ISA_Direwolf>
 			<ISA_UnholdPlain>1</ISA_UnholdPlain>
 			<ISA_UnholdSwamp>1</ISA_UnholdSwamp>
@@ -83,7 +81,6 @@
 		<xpath>Defs/BiomeDef [defName="BorealForest"]/wildAnimals</xpath>
 		<value>
 			<ISA_Direwolf>0.04</ISA_Direwolf>
-			<ISA_Rox>0.3</ISA_Rox>
 			<ISA_UnholdPlain>0.01</ISA_UnholdPlain>
         </value>
 	</Operation>
@@ -92,7 +89,6 @@
 		<xpath>Defs/BiomeDef [defName="Tundra"]/wildAnimals</xpath>
 		<value>
 			<ISA_Direwolf>0.04</ISA_Direwolf>
-			<ISA_Rox>0.4</ISA_Rox>
 			<ISA_UnholdSnow>0.01</ISA_UnholdSnow>
         </value>
 	</Operation>
@@ -101,7 +97,6 @@
 		<xpath>Defs/BiomeDef [defName="ColdBog"]/wildAnimals</xpath>
 		<value>
 			<ISA_Direwolf>0.04</ISA_Direwolf>
-			<ISA_Rox>0.4</ISA_Rox>
 			<ISA_UnholdSwamp>0.01</ISA_UnholdSwamp>
         </value>
 	</Operation>
@@ -111,7 +106,6 @@
 		<xpath>Defs/BiomeDef [defName="IceSheet"]/wildAnimals</xpath>
 		<value>
 			<ISA_Direwolf>0.04</ISA_Direwolf>
-			<ISA_Rox>0.1</ISA_Rox>
 			<ISA_UnholdSnow>0.01</ISA_UnholdSnow>
         </value>
 	</Operation>
@@ -120,7 +114,6 @@
 		<xpath>Defs/BiomeDef [defName="SeaIce"]/wildAnimals</xpath>
 		<value>
 			<ISA_Direwolf>0.04</ISA_Direwolf>
-			<ISA_Rox>0.1</ISA_Rox>
 			<ISA_UnholdSnow>0.01</ISA_UnholdSnow>
         </value>
 	</Operation>	
